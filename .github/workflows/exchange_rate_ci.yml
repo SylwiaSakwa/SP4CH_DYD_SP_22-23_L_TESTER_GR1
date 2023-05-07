@@ -43,8 +43,8 @@ jobs:
         sonar-scanner \
           -Dsonar.projectKey='SylwiaSakwa_SP4CH_DYD_SP_22-23_L_TESTER_GR1' \
           -Dsonar.organization='sylwiasakwa' \
-          -Dsonar.sources='Password Exchange rate/app/' \
-          -Dsonar.tests='Password Exchange rate/tests/' \
+          -Dsonar.sources='Password T9/Exchange rate/app/' \
+          -Dsonar.tests='Password T9/Exchange rate/tests/' \
           -Dsonar.python.coverage.reportPaths=coverage.xml \
           -Dsonar.host.url=https://sonarcloud.io \
           -Dsonar.login=$SONAR_TOKEN

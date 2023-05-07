@@ -28,4 +28,4 @@ jobs:
       run: |
         cd 'T9/Exchange rate'
         export PYTHONPATH="${PYTHONPATH}:$(pwd)"
-        pytest tests/
+        pytest tests/ -v
